@@ -57,7 +57,7 @@ public class NetWorkManager : MonoBehaviourPunCallbacks
             print("현재 방 인원수 : " + PhotonNetwork.CurrentRoom.PlayerCount);
             print("현재 방 최대 인원수" + PhotonNetwork.CurrentRoom.MaxPlayers);
 
-            string playerStr = "방에 있는 플레이어 목록 :";
+            string playerStr = "방에 있는 플레이어 목록  :";
             for (int i=0;i<PhotonNetwork.PlayerList.Length; i++)
             {
                 playerStr += PhotonNetwork.PlayerList[i].NickName + ",";
